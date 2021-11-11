@@ -1,0 +1,20 @@
+{
+    "name": "ni9ne/excelmanager",
+    "description": "manage excel file",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ni9ne",
+            "email": "ni9ne@outlook.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Manager\\Excel\\": "src/Manager/Excel"
+        }
+    }
+}
