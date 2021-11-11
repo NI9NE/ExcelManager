@@ -10,7 +10,10 @@
     ],
     "minimum-stability": "alpha",
     "require": {
-        "php": ">=7.3"
+        "php": ">=7.3",
+        "phpoffice/phpspreadsheet": "1.8.2",
+        "ext-json": "*",
+        "ext-gd": "*"
     },
     "autoload": {
         "psr-4": {
